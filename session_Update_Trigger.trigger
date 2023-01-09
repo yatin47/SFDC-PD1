@@ -4,7 +4,7 @@ trigger session_Update_Trigger on Session__c (before update) {
     {
         integer i = 0;
         ID[] strNewId = new ID[]{};
-        ID[] strSpeakerIDs = new ID[]{};//Yatin
+        ID[] strSpeakerIDs = new ID[]{};//Yatin Takle
         String strIDs = '';
 
         DateTime[] dtOldSessionDate = new DateTime[]{};
